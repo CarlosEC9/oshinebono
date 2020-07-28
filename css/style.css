@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+:root{
+	--color-morado:#5c0bb7;
+	--color-gris:#F6F6F6;
+	--color-gris-claro:#FDFDFD;
+	--color-hover-gris: #EFEFEF;
+}
+body{
+	font-family: 'Open Sans' sans-serif;
+	font-size: 14px;
+	color: #212529;
+	line-height: 1.8 !important;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky{
+	background-color: #000 !important
+}
+
+.lista-redes a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #ccc;
+	display: block;
+	color: #FFF;
+}
+.lista-redes li{
+	padding-right: 10px;
+}
+.lista-redes .facebook{
+	background-color:#3b5998;
+}
+.lista-redes .twitter{
+	background-color: #0c9aca;
+}
+
+
+
+#hero{
+	background-image: url("../img/oshine-v19-intro.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	text-align: center;
+	color: #FFF;
+	height: 100vh;
+}
+
+#hero h1{
+	font-size: 70px;
+	margin-bottom: 5%;
+	font-weight: 800;
+}
+#hero h2{
+	font-size: 20px;
+	margin-bottom: 5%;
+}
+
+
+
+.btn-morado{
+	background-color: var(--color-morado);
+	text-transform: uppercase;
+	padding: 12px 40px;
+	border-radius: 40px;
+	border: 3px solid var(--color-morado);
+	font-size: 14px;
+	font-weight: 600;
+}
+.btn-about{
+	background-color: transparent;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	border-radius: 40px;
+	border: 3px solid #FFF;
+	font-size: 14px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+.btn-about:hover{
+	background-color: var(--color-morado);
+	border-color: var(--color-morado);	
+}
+
+.overlay-hero{
+	background-color: rgba(0,0,0,0.80);
+	padding-top: 10%;
+	height: 100%;
+}
+
+.titulo{
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+#about{
+	background-color: var(--color-morado);
+	padding: 7% 0;
+	color: #fff;
+	text-align: center;
+}
+
+#about p{
+	font-size: 32px;
+	font-weight: 400;
+}
+
+
+
+
+#features{
+	text-align: center;
+}
+#features article{
+	padding: 5% 40px;
+	color: #7B7B7B;
+}
+#features article:hover{
+	background-color: var(--color-hover-gris) !important;
+}
+
+
+#features article:first-child,
+#features article:last-child{
+	background-color: var(--color-gris);
+}
+features article:nth-child(2){
+	background-color: var(--color-gris-claro);
+}
+
+#features article h3{
+	color: #222;
+	font-size: 16px;
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+#features article i{
+	color: var(--color-morado);
+	font-size: 30px;
+}
+
+
+.section{
+	padding: 60px 0;
+}
+
+.subtitulo{
+	color: #2D2D2D;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+#team .titulo{
+	margin-bottom: 2%;
+}
+#team{
+	text-align: center;
+}
+
+#team h4{
+	color: #2D2D2D;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 4%, 0;
+	padding-top: 5%;
+}
+#team h5{
+	color: #2D2D2D;
+	font-size: 14px;
+	margin: 3%, 0;
+}
+#team ul a{
+	color: #2D2D2D;
+}
+#team ul a:hover{
+	color: var(--color-morado);
+}
+
+#team img{
+	filter: grayscale(1);
+	transition: all 0.3s ease-in-out;
+}
+#team img:hover{
+	filter: grayscale(0);
+	transition: all 0.3s ease-in-out;
+}
+
+#we{
+	background-image: url("../img/bg-parallax.jpg");
+	background-attachment: fixed;
+	color: #FFF;
+}
+
+#we i{
+	color: var(--color-morado); 
+}
+
+#redefining{
+	background-color: #ecf0f1;
+}
+
+#redefining h6{
+	padding-top: 20%;
+	font-size: 35px;
+	font-weight: 700;	
+}
+
+.parra{
+	text-align: justify;
+	color: #8E8E8E;
+	padding-top: 3%;
+	width: 70%;
+	font-size: 17px;
+}
+
+.btn-morado-2{
+	background-color: #D6D6D6;
+	text-transform: uppercase;
+	border-radius: 40px;
+	border-color: #D6D6D6;
+	padding: 12px 40px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.btn-morado-2:hover{
+	background-color: var(--color-morado);
+	border-color: var(--color-morado);
+}
+
+#building h6{
+	padding-top: 18%;
+	font-size: 35px;
+	font-weight: 700;
+	padding-left: 55%;
+}
+
+#building p{
+	font-size: 15px;
+	padding-top: 3%;
+	padding-left: 55%;
+	width: 100%;
+}
+
+#services{
+	text-align: center;
+	align-content: center;
+	color: #FFF;
+	background-color: #252525;
+}
+
+#services h3{
+	padding-top: 2%;
+	color: #FFF;
+}
+
+#services h4{
+	color: #707070
+}
+
+#services i{
+	color: var(--color-morado);
+	font-size: 40px;
+	padding-top: 7%;
+}
+
+#services p{
+	color: #6A6A6A;
+	padding-top: 3%;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
